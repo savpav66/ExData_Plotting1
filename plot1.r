@@ -19,10 +19,10 @@ rm(dat)
 dt$Time <- strptime( paste( dt$Date,dt$Time) , format="%d/%m/%Y %H:%M:%S" ) 
 dt$Date <- as.Date( dt$Date, format="%d/%m/%Y" )
 
-png("plot1.png", width=400, height=400)
+png("plot1.png", width=480, height=480)
 hist(dt$Global_active_power,
 	main="Global Active Power",
-	xlab="Global Active Power (kilowatts)",
+	xlab="Global Active Power 8(kilowatts)",
 	ylab="Frequency",
 	col="red")
 dev.off()

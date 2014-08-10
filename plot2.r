@@ -19,8 +19,8 @@ rm(dat)
 dt$Time <- strptime( paste( dt$Date,dt$Time) , format="%d/%m/%Y %H:%M:%S" ) 
 dt$Date <- as.Date( dt$Date, format="%d/%m/%Y" )
 
-# Open a png device to put plot there, 400 X 400
-png("plot2.png", width=400, height=400)
+# Open a png device to put plot there, 480 X 480
+png("plot2.png", width=480, height=480)
 
 plot( dt$Time, 
 	  dt$Global_active_power,
