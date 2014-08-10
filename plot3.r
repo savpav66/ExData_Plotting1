@@ -28,7 +28,8 @@ plot( dt$Time,
 	  type="l", 
 	  col="black",
 	  xlab="", 
-	  ylab="Energy sub metering",xaxt="n" )
+	  ylab="Energy sub metering",
+	  xaxt="n" )
 # Now include the other lines	  
 lines(dt$Time, dt$Sub_metering_2, col="red")
 lines(dt$Time, dt$Sub_metering_3, col="blue")
