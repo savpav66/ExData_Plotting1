@@ -24,7 +24,7 @@ png("plot3.png", width=480, height=480)
 
 # the plot, without x axis ticks - see afterwards why!
 plot( dt$Time, 
-	  dt$Sub_mete_1, 
+	  dt$Sub_metering_1, 
 	  type="l", 
 	  col="black",
 	  xlab="", 
