@@ -19,7 +19,7 @@ rm(dat)
 dt$Time <- strptime( paste( dt$Date,dt$Time) , format="%d/%m/%Y %H:%M:%S" ) 
 dt$Date <- as.Date( dt$Date, format="%d/%m/%Y" )
 
-# Open a png device to put plot there, 400 X 400
+# Open a png device to put plot there, 480 X 480
 png("plot4.png", width=480, height=480)
 # Create a matrix of 2 by 2 in image
 par( mfrow=c(2,2) )
