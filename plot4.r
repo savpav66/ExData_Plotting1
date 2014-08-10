@@ -65,7 +65,8 @@ legend( "topright",
 		col=c("black", "red", "blue"),
 		c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
 		lty=1,
-		box.lwd=0 )
+		box.lwd=0,
+		bty="n")
 # plot 4
 plot( dt$Time, 
 	  dt$Global_reactive_power, 
